@@ -108,9 +108,9 @@ class SchoolAssessmentSystem:
     def generate_summary(self):
         try:
             # # Check if data is empty
-            # if self.data.empty:
-            #     print('No data to generate summary')
-            #     return None
+            if self.data.empty:
+                print('No data to generate summary')
+                return None
 
             # Calculate basic statistics
             summary = self.data.describe().round(2)
