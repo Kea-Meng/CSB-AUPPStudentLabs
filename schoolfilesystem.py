@@ -4,8 +4,8 @@ import csv, collections, dictionary, (pandas as pd), urlopen, etc..
 
 #classes and Functions to implement
 class SchoolAssessmentSystem:
-    def __init__():
-
+    def __init__(self):
+        pass
     def process_file():            
 
     def transfer_data():
